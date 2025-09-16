@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: seminar-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: seminar-app
+  template:
+    metadata:
+      labels:
+        app: seminar-app
+    spec:
+      containers:
+      - name: seminar-app
+        image: sakethsurya/seminar-app:latest
+        ports:
+        - containerPort: 3000

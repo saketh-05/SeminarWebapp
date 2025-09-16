@@ -1,0 +1,24 @@
+{
+  "name": "seminarwebapp",
+  "version": "1.0.0",
+  "description": "This is a sample backend service to dockerize and host on EKS",
+  "homepage": "https://github.com/saketh-05/SeminarWebapp#readme",
+  "bugs": {
+    "url": "https://github.com/saketh-05/SeminarWebapp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saketh-05/SeminarWebapp.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
